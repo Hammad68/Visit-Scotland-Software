@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VisitScotland.exe" version="1.0.0.0" publicKeyToken="1b962a9cd673c524" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VisitScotland" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VisitScotland.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisitScotland.exe" size="26089480">
+      <assemblyIdentity name="VisitScotland" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NoXVf3Opr722RUh3E5QZN2N+7copr+MoUd/kZibHaAA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="VisitScotland.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GLASGOWKELVIN\hammadahmed211" issuerKeyHash="722db89bbe8692195b1c218cc0b797526fede0a6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Jmq+FJarfRUT9s0BnNbzKuPzCoLZcsJsa6tPbSajDHk=</DigestValue></Reference></SignedInfo><SignatureValue>dNaKJW0ajtb+UgFToN5R3ygKhXsDTJw+46Ud9kcoCtrM9ZQnuOEk6aFYjct7vYHYXOVEw4UTHgJimgK/RTSVcY1DyqeDUxwVzX9naFxba/Sk0Kty8c0ILcwglixr6JNaHVuLLIQi9ds3d9+HU0xr89JRtEfxiEqgKGCRUB/AfTY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tosps3wrSciSNwiEdls6QcVGKptcpth2gNk+7vuVkjYbB89uNmPalDCW0zmOKksyT2KJjSbWZIk+bNALH9i4IowI5t55iGBOR69naVWAYMel35BnnfcHRWa2sOoMKWcTljq3OZKU7hswawgXOyiQ96QcgvES3sx9RSSt/ECyAXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="790ca3266d4fab6b6cc272d9820af3e32af3d69c01cdf613157dab9614be6a26" Description="" Url=""><as:assemblyIdentity name="VisitScotland.exe" version="1.0.0.0" publicKeyToken="1b962a9cd673c524" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GLASGOWKELVIN\hammadahmed211</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FXbdVICGWPMMMcjMH6vDZWpD6gouuNU3klKZd4KfVc4=</DigestValue></Reference></SignedInfo><SignatureValue>ExQpCPWlX6WiH5dRhflh2Lpw5OZillUBk4uonV9LC+bdHE/tB64Ukfk7h+I4xoaS8Y97O4rdtrquyHkRFa0GDL91+tF9mJhjf8MzbypBGtHU1Gg8ZIlLtYvps73zx5r4/bAJqpz7VL2Cv7oE+7BuPwxuliJL/fo/cDwRtulTDNg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tosps3wrSciSNwiEdls6QcVGKptcpth2gNk+7vuVkjYbB89uNmPalDCW0zmOKksyT2KJjSbWZIk+bNALH9i4IowI5t55iGBOR69naVWAYMel35BnnfcHRWa2sOoMKWcTljq3OZKU7hswawgXOyiQ96QcgvES3sx9RSSt/ECyAXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQHD83XCcbaa5B3nrtinP97DANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARwBMAEEAUwBHAE8AVwBLAEUATABWAEkATgBcAGgAYQBtAG0AYQBkAGEAaABtAGUAZAAyADEAMTAeFw0yMjAyMjIxMDExMjBaFw0yMzAyMjIxNjExMjBaMEMxQTA/BgNVBAMeOABHAEwAQQBTAEcATwBXAEsARQBMAFYASQBOAFwAaABhAG0AbQBhAGQAYQBoAG0AZQBkADIAMQAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2iymzfCtJyJI3CIR2WzpBxUYqm1ym2HaA2T7u+5WSNhsHz242Y9qUMJbTOY4qSzJPYomNJtZkiT5s0Asf2LgijAjm3nmIYE5Hr2dpVYBgx6XfkGed9wdFZraw6gwpZxOWOrc5kpTuGzBrCBc7KJD3pByC8RLezH1FJK38QLIBcQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAH3mm7obH/mkQFJ1od/mRczLZ6skk9G0WC8I3PdL51h4CzUI/m7Er0oYAp+7lZ0w+SkgIbTngQRI8ZLoP3XTG+PNmMWICR+QVGjhPumLenenPGqhpmfgEij15004Dox3AJHwHwrGyo6HbReeKzAfyeBHCbxCC6qM8xDa4gNOYU/a</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
